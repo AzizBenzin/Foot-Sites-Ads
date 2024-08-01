@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site</title>
+</head>
+<body>
+    <h1>Koora Studio</h1>
+    <button id="push-banner">Push Banner</button>
+    <button id="vignette-banner">Vignette Banner</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('push-banner').addEventListener('click', () => {
+        window.location.href = 'push-banner.html';
+    });
+
+    document.getElementById('vignette-banner').addEventListener('click', () => {
+        window.location.href = 'vignette-banner.html';
+    });
+});
+
+</script>
+</body>
+</html>
